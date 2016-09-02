@@ -1,0 +1,28 @@
+{
+  "name": "requirehtml",
+  "version": "0.1.0",
+  "description": "require() for html",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewp/require-html.git"
+  },
+  "author": "Matthew Phillips",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/matthewp/require-html/issues"
+  },
+  "homepage": "https://github.com/matthewp/require-html#readme",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "cheerio": "^0.22.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2"
+  }
+}
